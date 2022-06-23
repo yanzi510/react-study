@@ -1,11 +1,14 @@
 {
+  "homepage": "https://yanzi510.github.io/react-study/",
   "name": "react-study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
